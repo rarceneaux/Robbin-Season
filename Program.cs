@@ -19,7 +19,7 @@ namespace Robbin__Season
             Console.WriteLine("Please enter robber's courage factor 0.0 to 2.0");
             robber1.CougarFactor = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{robber1.Name} has robbing skill: {robber1.SkillLevel} and courage factor of {robber1.CougarFactor}");
+            Console.WriteLine($"{robber1.Name} has robbing skills: {robber1.SkillLevel} and courage factor of {robber1.CougarFactor}");
         }
     }
 }
